@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-build-date",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Add build date to your Ember app",
   "directories": {
     "doc": "doc",
@@ -11,7 +11,7 @@
     "build": "ember build",
     "test": "ember try:testall"
   },
-  "repository": "https://github.com/alisdair/ember-cli-build-date",
+  "repository": "https://github.com/crivas/ember-cli-build-date",
   "engines": {
     "node": ">= 0.10.0"
   },
@@ -28,10 +28,11 @@
     "ember-cli-qunit": "0.3.13",
     "ember-cli-uglify": "^1.0.1",
     "ember-data": "1.0.0-beta.18",
+    "ember-disable-prototype-extensions": "^1.0.0",
     "ember-disable-proxy-controllers": "^1.0.0",
     "ember-export-application-global": "^1.0.2",
-    "ember-disable-prototype-extensions": "^1.0.0",
-    "ember-try": "0.0.6"
+    "ember-try": "0.0.6",
+    "moment": "^2.15.1"
   },
   "keywords": [
     "ember-addon"
