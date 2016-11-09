@@ -1,14 +1,21 @@
-import config from 'dummy/config/environment';
+import Ember from "ember";
 import { module, test } from 'qunit';
+import startApp from './index';
+var App;
 
-module('build date');
+console.log('startApp', JSON.stringify(startApp, null, 2));
 
-test('build date is available in config', function(assert){
-  assert.expect(2);
-
-  let date = config.APP.buildDate;
-  assert.equal(typeof date, 'string', `date is a string: ${date}`);
-
-  let parsed = Date.parse(date);
-  assert.equal(typeof parsed, 'number', `is a valid date: ${new Date(parsed)}`);
-});
+// module('An Integration test', {
+//   beforeEach: function() {
+//     App = startApp();
+//   },
+//   afterEach: function() {
+//     Ember.run(App, App.destroy);
+//   }
+// });
+//
+// test("Page contents", function(assert) {
+//
+//   assert.ok(true);
+//
+// });
