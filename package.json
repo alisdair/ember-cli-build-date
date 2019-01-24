@@ -1,8 +1,7 @@
 {
- "name": "ember-cli-build-date",
-"version": "1.1.0",
-"description": "Add build date to your Ember app",
-
+  "name": "ember-cli-build-date",
+  "version": "1.1.0",
+  "description": "Add build date to your Ember app",
   "keywords": [
     "ember-addon"
   ],
