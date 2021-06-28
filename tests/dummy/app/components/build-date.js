@@ -1,7 +1,7 @@
-import Ember from 'ember';
+import Component from '@ember/component';
 import config from '../config/environment';
 
-export default Ember.Component.extend({
+export default Component.extend({
   buildDate: config.APP.buildDate,
   version: config.APP.version
 });
